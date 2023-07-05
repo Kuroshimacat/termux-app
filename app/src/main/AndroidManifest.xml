@@ -15,6 +15,7 @@
 
     <permission
         android:name="${TERMUX_PACKAGE_NAME}.permission.RUN_COMMAND"
+        android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
         android:description="@string/permission_run_command_description"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/permission_run_command_label"
